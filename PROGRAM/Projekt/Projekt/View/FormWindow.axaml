@@ -1,0 +1,15 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="Projekt.FormWindow"
+        Title="Přidat novou položku" Width="400" Height="300">
+
+    <StackPanel Margin="20" Spacing="10">
+        <TextBlock Text="Název knihy / filmu:" />
+        <TextBox Name="TxtNazev" />
+
+        <TextBlock Text="Délka (v minutách / stranách):" />
+        <TextBox Name="TxtDelka" />
+
+        <Button Name="BtnUlozit" Content="Uložit" HorizontalAlignment="Stretch" />
+    </StackPanel>
+</Window>

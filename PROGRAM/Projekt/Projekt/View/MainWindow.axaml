@@ -1,0 +1,15 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="Projekt.MainWindow"
+        Title="Naše Evidence" Width="600" Height="400">
+    
+    <Grid ColumnDefinitions="200, *">
+        <StackPanel Grid.Column="0" Background="#DDDDDD" Spacing="10" Margin="10">
+            <Button Name="BtnOtevritFormular" Content="Přidat novou věc" HorizontalAlignment="Stretch" />
+            <Button Name="BtnOtevritDetail" Content="Zobrazit detail" HorizontalAlignment="Stretch" />
+        </StackPanel>
+
+        <ListBox Grid.Column="1" Name="SeznamFilmu" Margin="10">
+        </ListBox>
+    </Grid>
+</Window>

@@ -1,0 +1,12 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="Projekt.DetailWindow"
+        Title="Detail položky" Width="400" Height="250">
+
+    <StackPanel Margin="20" Spacing="15">
+        <TextBlock Name="LblNazev" FontSize="20" FontWeight="Bold" Text="Název filmu" />
+        <TextBlock Name="LblDelka" Text="Délka: 120 minut" />
+        
+        <Button Name="BtnZavrit" Content="Zavřít" HorizontalAlignment="Stretch" />
+    </StackPanel>
+</Window>
